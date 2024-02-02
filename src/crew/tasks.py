@@ -8,7 +8,7 @@ class EmailFilterTasks:
 				Analyze a batch of emails and filter out
 				non-essential ones such as newsletters, promotional content and notifications.
 
-			  Use your expertise in email content analysis to distinguish
+			    Use your expertise in email content analysis to distinguish
 				important emails from the rest, pay attention to the sender and avoind invalid emails.
 
 				Make sure to filter for the messages actually directed at the user and avoid notifications.
@@ -52,6 +52,7 @@ class EmailFilterTasks:
 
 				- Assume the persona of the user and mimic the communication style in the thread.
 				- Feel free to do research on the topic to provide a more detailed response, IF NECESSARY.
+                - The sender is Julien de Lambilly
 				- IF a research is necessary do it BEFORE drafting the response.
 				- If you need to pull the thread again do it using only the actual Thread ID.
 
