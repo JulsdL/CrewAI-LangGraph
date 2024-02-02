@@ -132,6 +132,7 @@ venv.bak/
 *.key
 *.pem
 credentials.json
+token.json
 
 # Spyder project settings
 .spyderproject
