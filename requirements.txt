@@ -1,4 +1,4 @@
-crewai==0.1.32
+crewai==0.5.3
 langgraph==0.0.15
 langchain-community==0.0.14
 python-dotenv==1.0.0

@@ -6,7 +6,7 @@ class EmailFilterTasks:
 		return Task(
 			description=dedent(f"""\
 				Analyze a batch of emails and filter out
-				non-essential ones such as newsletters, promotional content and notifications.
+				non-essential ones such as newsletters, promotional content, invoices and notifications.
 
 			    Use your expertise in email content analysis to distinguish
 				important emails from the rest, pay attention to the sender and avoind invalid emails.

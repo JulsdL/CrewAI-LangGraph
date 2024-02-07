@@ -1,4 +1,4 @@
-from src.graph import WorkFlow
+from app.graph import WorkFlow
 
 app = WorkFlow().app
 app.invoke({})

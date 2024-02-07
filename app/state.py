@@ -1,4 +1,3 @@
-import datetime
 from typing import TypedDict
 
 class EmailsState(TypedDict):

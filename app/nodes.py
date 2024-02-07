@@ -11,7 +11,7 @@ class Nodes():
 	def check_email(self, state):
 		print("# Checking for new emails")
 		search = GmailSearch(api_resource=self.gmail.api_resource)
-		emails = search('after:newer_than:5d')
+		emails = search('newer_than:1d')
 		checked_emails = state['checked_emails_ids'] if state['checked_emails_ids'] else []
 		thread = []
 		new_emails = []
@@ -34,8 +34,8 @@ class Nodes():
 		}
 
 	def wait_next_run(self, state):
-		print("## Waiting for 180 seconds")
-		time.sleep(180)
+		print("## Waiting for 30 seconds")
+		time.sleep(30)
 		return state
 
 	def new_emails(self, state):
